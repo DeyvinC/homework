@@ -38,5 +38,3 @@
     console.log(str24.indexOf('thing'))
     console.log(str24.split(''))
 
-    // vitoria is cool
-    // manny is kind cool
