@@ -1,21 +1,21 @@
 // Create a function that takes two numbers as arguments and return their sum.
 
-function totalSum(a,b){
-    let sum = a + b
-    return sum
-}
-console.log(totalSum(2,4))
+// function totalSum(a,b){
+//     let sum = a + b
+//     return sum
+// }
+// console.log(totalSum(2,4))
 
 
 
 
 // Create a function that takes voltage and current and returns the calculated power.
 
-function calPower(volt,curr){
-    let power = volt * curr
-    return power
-}
-console.log(calPower(10,4))
+// function calPower(volt,curr){
+//     let power = volt * curr
+//     return power
+// }
+// console.log(calPower(10,4))
 
 
 
@@ -42,56 +42,82 @@ console.log(calPower(10,4))
 // Examples
 // detectWord(word1) ➞ "BOCA CODE"
 // detectWord(word2) ➞ "HELLO"
-const word1 = "aaHeEaLLaaaO";
-const word2 = "BxxOxxCxxAx xCxxOxxxDxxE";
+// const word1 = "aaHeEaLLaaaO";
+// const word2 = "BxxOxxCxxAx xCxxOxxxDxxE";
 
-function detectWord(word1){
-    const regex = /[A-Z]/g
-    const upperCaseW1 = word1.match(regex)
-    return upperCaseW1   
-}
+// function detectWord(word1){
+//     const regex = /[A-Z]/g
+//     const upperCaseW1 = word1.match(regex)
+//     return upperCaseW1   
+// }
 
-const foundWord1 = detectWord(word1)
-const foundWord2 = detectWord(word2)
+// const foundWord1 = detectWord(word1)
+// const foundWord2 = detectWord(word2)
 
-console.log(...foundWord1)
-console.log(...foundWord2)
+// console.log(...foundWord1)
+// console.log(...foundWord2)
 
 
 //Second Way
-const word1 = "BxxOxxCxxAx xCxxOxxxDxxE";
-const word2 = "aaHeEaLLaaaO";
+// const word1 = "BxxOxxCxxAx xCxxOxxxDxxE";
+// const word2 = "aaHeEaLLaaaO";
 
-function detectWord(inputString) {
-  let detectedWord = "";
-  for (let i = 0; i < inputString.length; i++) {
-    if (inputString[i].toUpperCase() === inputString[i]) {
-      detectedWord += inputString[i];
-    }
-  }
-  return detectedWord;
-}
+// function detectWord(inputString) {
+//   let detectedWord = "";
+//   for (let i = 0; i < inputString.length; i++) {
+//     if (inputString[i].toUpperCase() === inputString[i]) {
+//       detectedWord += inputString[i];
+//     }
+//   }
+//   return detectedWord;
+// }
 
-console.log(detectWord(word1));
-console.log(detectWord(word2));
+// console.log(detectWord(word1));
+// console.log(detectWord(word2));
 
 //Third way
 
-const word1 = "BxxOxxCxxAx xCxxOxxxDxxE";
-const word2 = "aaHeEaLLaaaO";
+// const word1 = "BxxOxxCxxAx xCxxOxxxDxxE";
+// const word2 = "aaHeEaLLaaaO";
 
-function detectWord(inputString) {
-  let detectedWord = "";
-  for (let i = 0; i < inputString.length; i++) {
-    if (
-      (inputString.charCodeAt(i) >= 65 && inputString.charCodeAt(i) <= 90) ||
-      inputString.charCodeAt(i) === 32
-    ) {
-      detectedWord += inputString[i];
-    }
+// function detectWord(inputString) {
+//   let detectedWord = "";
+//   for (let i = 0; i < inputString.length; i++) {
+//     if (
+//       (inputString.charCodeAt(i) >= 65 && inputString.charCodeAt(i) <= 90) ||
+//       inputString.charCodeAt(i) === 32
+//     ) {
+//       detectedWord += inputString[i];
+//     }
+//   }
+//   return detectedWord;
+// }
+
+// console.log(detectWord(word1));
+// console.log(detectWord(word2));
+
+// Create a function that gets the multiplication table
+
+function multiplicationTable(number){
+  for( let i=1; i <= 10; i++){
+    let line = "" 
+    for( let j =1; j <= 10; j++){
+      line += " " + ( i * j)
+     }
+    console.log(line)
+
   }
-  return detectedWord;
-}
 
-console.log(detectWord(word1));
-console.log(detectWord(word2));
+}
+multiplicationTable(1)
+
+
+//Online example
+
+// function multiTable(number) {
+//   for (let i = 1; i <= 10; i++) {
+//     const result = i * number
+//     console.log(result)
+//   }
+// }
+// multiTable(5)
