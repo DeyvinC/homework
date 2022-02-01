@@ -98,18 +98,18 @@
 
 // Create a function that gets the multiplication table
 
-function multiplicationTable(number){
-  for( let i=1; i <= 10; i++){
-    let line = "" 
-    for( let j =1; j <= 10; j++){
-      line += " " + ( i * j)
-     }
-    console.log(line)
+// function multiplicationTable(number){
+//   for( let i=1; i <= 10; i++){
+//     let line = "" 
+//     for( let j =1; j <= 10; j++){
+//       line += " " + ( i * j)
+//      }
+//     console.log(line)
 
-  }
+//   }
 
-}
-multiplicationTable(1)
+// }
+// multiplicationTable(1)
 
 
 //Online example
@@ -121,3 +121,33 @@ multiplicationTable(1)
 //   }
 // }
 // multiTable(5)
+
+// Exercise 1 For Loop
+
+// let arr_1 = [3, 5, 22, 5,  7,  2,  45, 75, 89, 21, 2]; // --> 276
+// let arr_2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26]; // --> 351
+// Example output: 
+// 276 + 351 = 627
+// let totalSum = 0
+// let sum1 = 0
+// let sum2 = 0
+// for(i = 0; i < arr_1.length; i++){
+//   sum1 += arr_1[i]
+//   sum2 += arr_2[i]
+//   totalSum = sum1 + sum2
+// }
+// console.log(sum1, "+", sum2, "=", totalSum)
+
+
+//Example 2
+
+let n1 = 22; 
+// Example output: 
+// 2 4 6 8 10 12 14 16 18 20 22 OR each item on a new line
+ 
+for(i = 1; i <= 22; i++){
+  if(i % 0, i === 0){
+    
+
+  }
+}
