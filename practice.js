@@ -58,7 +58,7 @@
 // console.log(...foundWord2)
 
 
-//Second Way
+// Second Way
 // const word1 = "BxxOxxCxxAx xCxxOxxxDxxE";
 // const word2 = "aaHeEaLLaaaO";
 
@@ -75,7 +75,7 @@
 // console.log(detectWord(word1));
 // console.log(detectWord(word2));
 
-//Third way
+// Third way
 
 // const word1 = "BxxOxxCxxAx xCxxOxxxDxxE";
 // const word2 = "aaHeEaLLaaaO";
@@ -112,7 +112,7 @@
 // multiplicationTable(1)
 
 
-//Online example
+// Online example
 
 // function multiTable(number) {
 //   for (let i = 1; i <= 10; i++) {
@@ -139,15 +139,43 @@
 // console.log(sum1, "+", sum2, "=", totalSum)
 
 
-//Example 2
+// Example 2
 
-let n1 = 22; 
 // Example output: 
 // 2 4 6 8 10 12 14 16 18 20 22 OR each item on a new line
- 
-for(i = 1; i <= 22; i++){
-  if(i % 0, i === 0){
-    
+// let n1 = 22; 
 
+// for(i = 1; i <= 22; i++){
+//   if(i % 2 == 0){
+//     console.log(i)
+   
+//   }
+// }
+
+
+// Example 3
+
+// Example output: 
+// true 3.5  be  false cannot  true 9 what 43 OR each item on a new line
+
+// let arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
+
+// const reversed = arr.reverse();
+// console.log('Reversed Array: ', reversed)
+
+// Example output: 
+// [12, 7, 16]
+
+// let arr_3   = [4, 6, 7];
+// let arr_4    = [8, 1, 9];
+let arr1 = [4]
+let arr2 = [8]
+for(i = 0; i < arr1.length; i++){
+  if(arr1 && arr2 == i ){
+    sum = arr1 + arr2
+    
+   //return sum 
+   console.log(sum)
   }
+
 }
